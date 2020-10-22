@@ -1,0 +1,299 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Play|Varela+Round|Comfortaa|Orbitron);
+
+html {
+	font-family: "Segoe UI";
+	font-size: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background-image: url(../pictures/common/milky-way.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+
+a {
+	color: rgb(185, 15, 0);
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	color: rgb(255, 85, 0);
+	text-decoration: none;
+	outline: none;
+}
+
+a:visited {
+	outline: none;
+}
+
+div#to-top {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 50px;
+	height: 50px;
+	background: radial-gradient(circle, rgb(185, 15, 0), rgb(255, 85, 0));
+	text-align: center;
+	border-radius: 25px;
+}
+
+div#to-top a {
+	display: block;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	line-height: 50px;
+	border-radius: 25px;
+}
+
+div#to-top img {
+	position: absolute;
+	top: 13px;
+	right: 13px;
+}
+
+audio {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 12.5%;
+	height: 50px;
+}
+
+/* <--------------------> */
+/* Header */
+/* <--------------------> */
+
+header {
+	background-image: url(../pictures/common/solar-system.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 250px;
+}
+
+header h1 {
+	font-family: "Orbitron";
+	font-size: 3rem;
+	height: 250px;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 10px;
+}
+
+header a {
+	display: block;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	height: 250px;
+	line-height: 250px;
+	padding-left: 20px;
+}
+
+header a:hover {
+	color: rgb(255, 255, 255);
+}
+
+header a:visited {
+	color: rgb(255, 255, 255);
+}
+
+
+/* <--------------------> */
+/* Menu */
+/* <--------------------> */
+
+nav {
+	background-color: rgb(255, 85, 0);
+	margin-bottom: 16px;
+}
+
+nav ul#menu-unordered-list-level-1 {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav ul#menu-unordered-list-level-1 li.menu-list-item-level-1 {
+	flex: auto;
+	width: 20%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.125rem;
+}
+
+nav ul#menu-unordered-list-level-1 li.menu-list-item-level-1-drop {
+	flex: auto;
+	width: 20%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.125rem;
+	position: relative;
+}
+
+nav ul#menu-unordered-list-level-1 li.menu-list-item-level-1-drop img {
+	position: absolute;
+	top: 12.5px;
+	right: 0;
+}
+
+nav ul#menu-unordered-list-level-1 li.menu-list-item-level-1-drop:hover img {
+	display: none;
+}
+
+nav ul#menu-unordered-list-level-1 li.menu-list-item-level-1-drop ul#menu-unordered-list-level-2 {
+	position: absolute;
+	left: -100000px;
+}
+
+nav ul#menu-unordered-list-level-1 li.menu-list-item-level-1-drop:hover ul#menu-unordered-list-level-2 {
+	display: block;
+	background-color: rgb(255, 85, 0);
+	list-style-type: none;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	left: 0;
+	z-index: 9;
+}
+
+nav a {
+	display: block;
+	color: rgb(255, 255, 255);
+}
+
+nav a:hover {
+	display: block;
+	background-color: rgb(185, 15, 0);
+	color: rgb(255, 255, 255);
+}
+
+
+/* <--------------------> */
+/* Content */
+/* <--------------------> */
+
+main {
+	clear: both;
+	width: 75%;
+	margin: 0 auto 16px auto;
+	text-align: justify;
+}
+
+main > h1 {
+	background: linear-gradient(to right, rgb(185, 15, 0), rgb(255, 85, 0), rgb(185, 15, 0));
+	color: rgb(255, 255, 255);
+	font-family: "Comfortaa";
+	font-size: 3rem;
+	height: 90px;
+	margin: 0 0 16px 0;
+	text-align: center;
+	line-height: 90px;
+	border-radius: 5px;
+}
+
+/* <--------------------> */
+/* <--------------------> */
+/* MODEL PAGE */
+/* <--------------------> */
+/* <--------------------> */
+
+div#model-page-content {
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 0 0 16px 0;
+	padding: 16px;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+/* <--------------------> */
+/* Footer */
+/* <--------------------> */
+
+footer {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	padding: 16px;
+}
+
+
+div#footer-part-1 {
+	width: 40%;
+	margin: 0 auto 50px auto;
+	text-align: center;
+}
+
+div#footer-part-1 span {
+	display: block;
+	font-family: "Orbitron";
+	font-size: 2rem;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	letter-spacing: 10px;
+}
+
+
+div#footer-part-2 {
+	display: flex;
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
+
+div#footer-part-2 p:nth-of-type(1) {
+	flex: auto;
+	width: 30%;
+	margin: 0 50px 0 0;
+	text-align: center;
+}
+
+div#footer-part-2 p:nth-of-type(1) span {
+	display: block;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+div#footer-part-2 p:nth-of-type(2) {
+	flex: auto;
+	width: 30%;
+	margin: 0 50px 0 0;
+	text-align: center;
+}
+
+div#footer-part-2 p:nth-of-type(2) span {
+	display: block;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+div#footer-part-2 p:nth-of-type(3) {
+	flex: auto;
+	width: 30%;
+	margin: 0;
+	text-align: center;
+}
+
+div#footer-part-2 p:nth-of-type(3) span {
+	display: block;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
